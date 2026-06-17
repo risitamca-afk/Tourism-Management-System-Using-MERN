@@ -1,0 +1,96 @@
+.confirmation-page1 {
+    font-family: Arial, sans-serif;
+    padding:  10px 20px 20px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  /* h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0033cc;
+  }
+  
+  h3, h4 {
+    color: #333;
+  } */
+  
+  .booking-summary, .passenger-details {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .spaceing1{
+    margin-right: 30vw;
+  }
+  .spaceing2{
+    margin-right: 29vw;
+  }
+  .spaceing3{
+    margin-right: 32.6vw;
+  }
+  .spaceing4{
+    margin-right: 33.7vw;
+  }
+  .spaceing5{
+    margin-right: 26vw;
+  }
+  .spaceing6{
+    margin-right: 29vw;
+  }
+  .passenger-card {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .passenger-card h4 {
+    margin-bottom: 5px;
+    color: #0033cc;
+  }
+  
+  /* p {
+    margin: 5px 0;
+  }
+   */
+  .confirmation-page1 strong {
+    color: #333;
+  }
+  .hotelnamereceipt1{
+    background-color:#007bff ;
+    color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .hotelnamereceipt1 .p1{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .hotelnamereceipt1 .p2{
+    font-size: 20px;
+    font-weight: 600;
+
+  }
+  .home-button1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    background-color: #000000;
+  }
+  

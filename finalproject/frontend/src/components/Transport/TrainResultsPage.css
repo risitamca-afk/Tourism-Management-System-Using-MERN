@@ -1,0 +1,168 @@
+.results-page {
+    padding: 2rem;
+    background-color: #eef2f7;
+    min-height: 100vh;
+  }
+  .back-button{
+    color: #414040;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .results-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 2rem;
+  }
+  
+  .train-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .train-card {
+    background: #ffffff;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s;
+  }
+  
+  .train-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .train-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .train-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0c0c0c;
+  }
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .train-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .book-now-btn {
+    background-color: #1f64e2;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #032696;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 4rem;
+  }
+  
+  .train-route {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .train-times {
+    font-size: 0.95rem;
+    font-style: bold;
+    color: #000000;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .train-times div {
+    margin-bottom: 0.25rem;
+  }
+  
+  .train-destination {
+    text-align: right;
+    color: #000000;
+    font-size: 0.95rem;
+  }
+  .train-seats {
+    font-size: 0.95rem;
+    color: #333333;
+    font-weight: 500;
+    margin-top: 0.3rem;
+  }
+  .train-results-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .filter-sidebar {
+    width: 260px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+  }
+  
+  .filter-sidebar h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
+    font-size: 14px;
+  }
+  
+  .train-results-page {
+    flex: 1;
+  }
+  
+  .train-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .train-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .train-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

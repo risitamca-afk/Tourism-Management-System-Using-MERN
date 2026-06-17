@@ -1,0 +1,178 @@
+.results-page {
+    padding: 2rem;
+    background-color: #eef2f7;
+    min-height: 100vh;
+  }
+  
+  .back-button {
+    color: #414040;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  
+  .results-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 2rem;
+  }
+  
+  .bus-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .bus-card {
+    background: #ffffff;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s;
+  }
+  
+  .bus-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .bus-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .bus-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0c0c0c;
+  }
+  
+  .bus-route {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .bus-times {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .bus-times div {
+    margin-bottom: 0.25rem;
+  }
+  
+  .bus-destination {
+    text-align: right;
+    color: #000000;
+    font-size: 0.95rem;
+  }
+  
+  .bus-footer {
+    display: flex;
+    flex-direction: column; /* Updated to column layout */
+    align-items: flex-start;
+    margin-top: 1rem; /* Adds spacing between price and button */
+  }
+  
+  .bus-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .book-now-btn {
+    background-color: #1f64e2;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem; /* Adds space above the button */
+  }
+  
+  .book-now-btn:hover {
+    background-color: #032696;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 4rem;
+  }
+  
+  .bus-seats {
+    font-size: 0.95rem;
+    color: #333333;
+    font-weight: 500;
+    margin-top: 0.3rem;
+  }
+  .bus-results-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .filter-sidebar {
+    width: 240px;
+    margin-top: 120px;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .filter-sidebar h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .bus-results-page {
+    flex: 1;
+  }
+  
+  .bus-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .bus-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .bus-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bus-rating {
+    font-size: 14px;
+    color: #ffa500;
+  }
+  

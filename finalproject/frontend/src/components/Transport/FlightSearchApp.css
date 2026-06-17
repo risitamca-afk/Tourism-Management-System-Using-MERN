@@ -1,0 +1,306 @@
+.search-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.searchtrain {
+  gap: 10px;
+  margin: 40px 40px !important;
+}
+
+.field {
+  flex: 1;
+  min-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.field input.error {
+  border-bottom: 2px solid #ff3b30;
+}
+
+.error-message {
+  color: #ff3b30;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.airport-code {
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.date-info {
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.date-info.hint {
+  color: #999;
+  font-style: italic;
+}
+
+.switch-button {
+  align-self: center;
+  height: 36px;
+  width: 36px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #008cff;
+  font-size: 20px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.field.disabled {
+  background-color: #f5f5f5;
+  color: #aaa;
+}
+
+.traveller-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.traveller-count {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.special-fares {
+  margin-bottom: 20px;
+}
+
+.fare-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.extra-savings {
+  background-color: #48d071;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.fare-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fare-options label {
+  flex: 1;
+  min-width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.fare-options label.active {
+  border-color: #008cff;
+  background-color: #f0f8ff;
+}
+
+.fare-options input[type="radio"] {
+  margin-bottom: 8px;
+}
+
+.fare-title {
+  font-weight: 600;
+}
+
+.fare-desc {
+  font-size: 12px;
+  color: #777;
+}
+
+.search-button {
+  background-color: #008cff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.2s;
+}
+
+.search-button:hover {
+  background-color: #0070cc;
+}
+
+/* Flight Results Styling */
+.flight-results {
+  margin-top: 30px;
+}
+
+.loading,
+.error,
+.no-results {
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  color: #555;
+}
+
+.error {
+  color: #ff3b30;
+}
+
+.results-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.flight-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.flight-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.airline {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.flight-number {
+  color: #777;
+}
+
+.flight-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-route {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.departure,
+.arrival {
+  text-align: center;
+}
+
+.time {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.city {
+  color: #666;
+}
+
+.duration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+}
+
+.duration .line {
+  height: 2px;
+  width: 50px;
+  background-color: #ddd;
+  margin: 8px 0;
+}
+
+.duration .time {
+  font-size: 14px;
+  color: #666;
+}
+
+.price-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #008cff;
+  margin-bottom: 10px;
+}
+
+.book-button {
+  background-color: #0d52e9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #024b8f;
+}
+
+@media (max-width: 768px) {
+  .search-fields {
+    flex-direction: column;
+  }
+
+  .switch-button {
+    align-self: flex-start;
+    margin: 10px 0;
+  }
+
+  .flight-details {
+    flex-direction: column;
+  }
+
+  .price-section {
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+}

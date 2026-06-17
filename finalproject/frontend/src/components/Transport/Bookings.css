@@ -1,0 +1,69 @@
+.bookings-wrapper {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.bookings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #f9f9ff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.booking-card h3 {
+  margin-bottom: 8px;
+  color: #2b7ec1;
+}
+/* Add this to your Bookings.css or a separate CSS file */
+
+.confirm-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.popup-content h3 {
+  margin-bottom: 20px;
+}
+
+.popup-content button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.popup-content button:first-child {
+  background-color: red;
+  color: white;
+}
+
+.popup-content button:last-child {
+  background-color: green;
+  color: white;
+}

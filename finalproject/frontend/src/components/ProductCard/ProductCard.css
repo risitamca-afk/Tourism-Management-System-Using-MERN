@@ -1,0 +1,130 @@
+.hotels-card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 70vw;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.hotels-card-image {
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hotels-card-image-inside {
+    height: 250px;
+    width: 95%;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.hotels-card-image img {
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+
+.hotels-card-content {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.hotels-card-title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+
+.hotels-card-description {
+    font-size: 16px;
+    color: #777;
+}
+
+.hotels-card-destination {
+    font-size: 18px;
+    color: blue;
+}
+
+.special-features-hotel {
+    font-size: 14px;
+    color: #1a7971;
+    margin: 10px 10px;
+}
+
+.hotel-card-main {
+    flex-basis: 75%;
+}
+
+.hotel-card-sub {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hotel-card-sub .rating-hotel {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hotel-card-sub .rating-hotel h3 {
+    padding: 4px;
+    color: blue;
+}
+
+.hotel-card-sub .rating-hotel h2 {
+    padding: 3px 10px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.hotel-card-sub .hotelmrp {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+
+.hotel-card-sub .hotelmrp h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hotel-card-sub .hotelmrp p {
+    font-size: 14px;
+    font-weight: 200;
+    color: #777;
+}
+
+.hotels-book-now {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hotels-book-now:hover {
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}

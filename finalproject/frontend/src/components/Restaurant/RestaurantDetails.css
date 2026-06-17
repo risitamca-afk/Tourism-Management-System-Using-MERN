@@ -1,0 +1,290 @@
+.page-container {
+  background: white;
+  color: #333;
+  padding: 20px;
+}
+
+.images-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.images {
+  display: flex;
+  overflow-x: hidden; /* hides scrollbar */
+  gap: 50px;
+  padding-bottom: 20px;
+  scroll-behavior: smooth;
+}
+
+.images img {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Scroll Buttons */
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-button.left {
+  left: -20px;
+}
+
+.scroll-button.right {
+  right: -20px;
+}
+
+.container12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.left-section1 {
+  width: 500px;
+  text-align: left;
+}
+
+.filters {
+  margin: 10px;
+  padding: 10px;
+}
+.filters span {
+  background: #82b0f5;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.menu {
+  background: #0066ff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+
+/* .price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  } */
+
+.price small {
+  font-size: 14px;
+  color: #777;
+}
+
+.right-section {
+  width: 400px;
+}
+
+.features1 {
+  list-style: none;
+  padding: 10px 0;
+  color: #3ca790;
+  display: flex;
+  gap: 10px
+  ;
+}
+
+.features1 li {
+  margin-bottom: 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.stars {
+  color: rgb(230, 202, 48);
+  margin-right: 8px;
+}
+
+.rating button {
+  background-color: rgb(61, 192, 209);
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  width: 250px;
+}
+
+.rating button:hover {
+  background-color: rgb(39, 126, 138);
+}
+
+.available {
+  margin: 15px 0;
+  color: rgb(206, 83, 83);
+  text-align: left;
+}
+
+.table-booking {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.table-booking h2 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.table-booking input[type="text"],
+.table-booking select,
+.table-booking input[type="date"],
+.table-booking input[type="time"] {
+  width: 400px;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.table-booking input,
+.table-booking select:focus {
+  outline: none;
+}
+
+.meals {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.meals button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.meals button.selected {
+  background: #e0e7ff;
+  border-color: #3b82f6;
+}
+
+.total-price {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.book-btn {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #173de7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.review-section {
+  /* width: 100%; */
+  background-color: lightgrey;
+  border-radius: 8px;
+  /*border: 1px solid #7d06b4;*/
+  padding: 10px;
+}
+
+.review-section h1 {
+  text-align: left;
+}
+
+.semireview-section {
+  display: flex;
+}
+
+.review-conts {
+  width: 30%;
+  text-align: left;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  height: 15px;
+  margin: 0 10px;
+}
+
+.progress {
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.rating-item span {
+  width: 70px;
+}
+
+.reviews {
+  width: 70%;
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+
+.reviews select {
+  background-color: rgb(42, 179, 224);
+  margin: 0 10px 10px 10px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.reviews select:focus {
+  outline: none;
+}
+
+.reviews hr {
+  height: 1px;
+  background-color: blue;
+  border: none;
+}
+
+.review-cards {
+  text-align: left;
+}
+
+.review-cards h2,
+.review-cards p,
+.review-cards h5 {
+  margin: 10px 0;
+}

@@ -1,0 +1,134 @@
+.search-box {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  background-color: #0d1b2a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  color: white;
+}
+
+.search-box input,
+.search-box select {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+    color: #111 !important;
+}
+
+.search-box button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.results-page {
+    padding: 2rem;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+  }
+  
+  .results-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .flight-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .flight-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s;
+  }
+  
+  .flight-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .flight-details {
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .flight-details strong {
+    font-size: 1.1rem;
+    color: #111;
+  }
+  
+  .flight-time,
+  .flight-meta {
+    margin-top: 0.75rem;
+  }
+  
+  .book-now-btn {
+    margin-top: 1.2rem;
+    background-color: #0378f5;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-results {
+    text-align: center;
+    color: #888;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+  }
+  .flight-results-container {
+    display: flex;
+  }
+  
+  .filter-sidebar {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    background: #f9f9f9;
+  }
+  
+  .filter-sidebar h4 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .flight-results-page {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  

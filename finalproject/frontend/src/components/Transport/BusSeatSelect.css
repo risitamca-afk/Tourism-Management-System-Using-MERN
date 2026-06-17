@@ -1,0 +1,271 @@
+.seat-selection-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.bus-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.seat-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seat-row {
+  display: flex;
+  gap: 10px;
+}
+
+.empty-driver-placeholder {
+  width: 160px;
+  height: 50px;
+  visibility: hidden; /* keeps space reserved */
+}
+
+.driver-seat {
+  width: 160px;
+  height: 50px;
+  background-color: #444;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.seat-gap {
+  width: 50px;
+}
+
+.seat {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.seat:hover {
+  background-color: #e0f0ff;
+}
+
+.seat.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.seat:disabled {
+  background-color: #ccc;
+  border: 2px solid #999;
+  cursor: not-allowed;
+  color: white;
+}
+
+.proceed-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.proceed-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* ADDITION: Hidden class */
+.seat-selection-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.bus-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.seat-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seat-row {
+  display: flex;
+  gap: 10px;
+}
+
+.empty-driver-placeholder {
+  width: 160px;
+  height: 50px;
+  visibility: hidden; /* keeps space reserved */
+}
+
+.driver-seat {
+  width: 160px;
+  height: 50px;
+  background-color: #444;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.seat-gap {
+  width: 50px;
+}
+
+.seat {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.seat:hover {
+  background-color: #e0f0ff;
+}
+
+.seat.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.seat:disabled {
+  background-color: #ccc;
+  border: 2px solid #999;
+  cursor: not-allowed;
+  color: white;
+}
+
+.proceed-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  margin-right:55px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.proceed-btn:hover {
+  background-color: #0056b3;
+}
+.seat.booked {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.seat-selection-page {
+  padding: 20px 40px;
+}
+
+.layout-wrapper {
+  display: flex;
+  justify-content: space-between; /* Pushes fare summary to the right */
+  align-items: flex-start;
+}
+
+.bus-layout {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 70%; /* Leave space for summary */
+}
+
+.fare-summary-card {
+  width: 25%;
+  min-width: 250px;
+  background-color: #f8f9fb;
+}
+.fare-box{
+  margin-top: 30px;
+}
+.fare-box, .promo-box {
+  background: white;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.fare-box h3 {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.fare-item, .fare-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.fare-total {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.promo-header {
+  background: linear-gradient(to right, #f7d056, #dfb231);
+  padding: 8px;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.promo-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.view-coupons {
+  display: block;
+  color: #007bff;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}

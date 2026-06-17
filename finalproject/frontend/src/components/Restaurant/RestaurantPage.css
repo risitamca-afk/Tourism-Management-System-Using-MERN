@@ -1,0 +1,141 @@
+/* RestaurantPage.css:- */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+main {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-criteria {
+  background-color: #0000;
+  padding: 20px;
+  width: 300px;
+}
+
+.criteria {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  width: 100%;
+  text-align: center;
+  min-height: 600px;
+}
+
+.main-content h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0d38c4;
+}
+
+.type {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#sort-select {
+  padding: 5px 6px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#sort-select:hover,
+#sort-select:focus {
+  border-color: #2bbdf7;
+  outline: none;
+}
+
+.cards1 {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.cards1 img {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-details {
+  text-align: left;
+}
+
+.left-details a {
+  text-decoration: none;
+}
+
+.left-details h2 {
+  margin-bottom: 10px;
+}
+
+.left-details p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.left-details ul {
+  list-style: none;
+  color: #3ca790;
+  display: block;
+}
+
+.right-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.right-details p {
+  font-size: 18px;
+}
+
+.right-details span {
+  background-color: #0d38c4;
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.right-details button {
+  background-color: #0d38c4;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  color: white;
+}

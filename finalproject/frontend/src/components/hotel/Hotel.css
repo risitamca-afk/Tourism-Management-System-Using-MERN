@@ -1,0 +1,160 @@
+/* .hotelsheading {
+  margin: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.hotels-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hotels-card {
+  min-width: 80vw;
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.hotels-card-image {
+  margin-right: 16px;
+}
+
+.hotels-card-image img {
+  width: 130px;
+  height: 300px;
+}
+
+.hotels-card-content {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotels-card-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #999;
+}
+
+.hotels-card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0;
+  color: #333;
+}
+
+.hotels-card-description {
+  font-size: 14px;
+  color: #777;
+}
+
+.hotels-card-action {
+  margin-top: 16px;
+}
+
+.hotels-book-now {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+}
+
+.hotels-book-now:hover {
+  background-color: #0056b3;
+}
+.hotel-search-container {
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-input,
+.date-input,
+.dropdown {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: -7px;
+  margin-bottom: 9px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.hotels-card-image {
+  flex-basis: 30%;
+}
+.hotels-card-content {
+  flex-basis: 70%;
+  position: relative;
+}
+
+.hotels-card-image img {
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.hotels-card-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.hotels-card-description,
+.hotels-card-destination,
+.hotels-card-dates {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.price {
+  margin-left: 85%;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: absolute;
+}
+
+.hotels-book-now {
+  width: 20%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 80%;
+} */
