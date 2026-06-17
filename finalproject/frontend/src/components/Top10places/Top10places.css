@@ -1,0 +1,106 @@
+.Top10places-outer-div {
+  max-width: 100vw;
+  /* margin: auto; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.Top10Placesheading {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.Top10places-inner-div {
+  width: 90vw; /* Adjust the width for the slider */
+  /* background-color: rgb(255, 0, 153); */
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+.Top10places-card {
+  background-color: crimson; /* Card background color */
+  height: 150px; /* Fixed height for the card */
+  width: 450px; /* Fixed width for the card */
+  /* Space between cards */
+  overflow: hidden; /* Prevent content overflow */
+  border: 2px solid rgb(255, 255, 255); /* Default border */
+  border-radius: 20px; /* Rounded corners */
+  position: relative; /* Positioning for absolute elements inside */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for border and shadow */
+}
+
+.Top10places-card:hover {
+  border-color: blue; /* Change border to blue on hover */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Add drop shadow on hover */
+  /* Remove the transform scale effect on the card itself */
+}
+
+.Top10places-cardimg {
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  overflow: hidden; /* Ensures image doesn't overflow */
+}
+
+.Top10places-cardimg img {
+  width: 100%; /* Make the image fill the card */
+  height: 100%; /* Make the image fill the card */
+  object-fit: cover; /* Ensures the image covers the area */
+  transition: transform 0.3s ease; /* Smooth zoom-in effect */
+}
+
+.Top10places-card:hover .Top10places-cardimg img {
+  transform: scale(1.1); /* Zoom in the image on hover */
+}
+
+.Top10places-cardtext {
+  position: absolute; /* Positioning for the text */
+  bottom: 0; /* Align text to the bottom */
+  left: 0;
+  width: 100%; /* Full width */
+  height: 30px; /* Fixed height for the text area */
+  background-color: rgba(16, 16, 16, 0.315); /* Semi-transparent background */
+  display: flex;
+  justify-content: center; /* Center the text */
+  align-items: center; /* Center the text vertically */
+  color: rgb(255, 255, 255); /* White text color */
+  font-size: 1.2rem; /* Font size for text */
+  font-weight: bold; /* Bold text */
+  z-index: 1; /* Ensure text is above other elements */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for text visibility */
+}
+
+.Top10places-card:hover .Top10places-cardtext {
+  opacity: 0; /* Hide text on hover */
+  transform: translateY(100%); /* Move the text out of the visible area */
+}
+
+.slick-slide > div {
+  margin: 20px 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(0, 0, 0) !important;
+  /* background-color: rgb(255, 255, 255);  */
+  /* font-size: 15px !important; */
+  /* font-weight: bold; */
+  border-radius: 25px;
+  margin: -15px;
+}
+.slick-prev:before {
+  margin-left: -20px;
+  /* padding: 3px 5px 5px 5px; */
+}
+.slick-next:before {
+  margin-right: -20px;
+  /* padding: 3px 5px 5px 5px; */
+}
